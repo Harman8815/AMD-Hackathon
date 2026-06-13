@@ -1,0 +1,492 @@
+[
+  {
+    "parameter": "Rib height",
+    "operator": ">=",
+    "value": "2.5",
+    "unit": "T (wall thickness)",
+    "rule_text": "2.5-3.0 T Min."
+  },
+  {
+    "parameter": "Draft per side",
+    "operator": "==",
+    "value": "0.5",
+    "unit": "degrees",
+    "rule_text": "Draft should be 1/2\u00b0 per side nominal."
+  },
+  {
+    "parameter": "Draft angle",
+    "operator": ">=",
+    "value": "0.5",
+    "unit": "degrees",
+    "rule_text": "1/2\u00b0Min."
+  },
+  {
+    "parameter": "Fillet radius at base of rib",
+    "operator": ">=",
+    "value": "0.020",
+    "unit": "in",
+    "rule_text": "Fillets at the base of the rib should be .020 in minimum."
+  },
+  {
+    "parameter": "Spacing between multiple ribs",
+    "operator": ">=",
+    "value": "2",
+    "unit": "T (wall thickness)",
+    "rule_text": "2 T Min."
+  },
+  {
+    "parameter": "Recommended fillet radius",
+    "operator": "==",
+    "value": "0.25",
+    "unit": "T (wall thickness)",
+    "rule_text": "R = .25T (RECOMMENDED in Figure II-7)"
+  },
+  {
+    "parameter": "Recommended base thickness",
+    "operator": "==",
+    "value": "0.7",
+    "unit": "T (wall thickness)",
+    "rule_text": ".7 T (RECOMMENDED in Figure II-7)"
+  },
+  {
+    "parameter": "Angle mating of core and cavity (for opening without core pulls)",
+    "operator": ">=",
+    "value": "5",
+    "unit": "degrees",
+    "rule_text": "When an openiig is desred in a part (...) a 5\u00b0 angle mating ofthe cote and cavity is required (see Figure II-8) / 5\u00b0 Min."
+  },
+  {
+    "parameter": "Dimension",
+    "operator": ">=",
+    "value": "0.085",
+    "unit": "in",
+    "rule_text": ".085in\n(Min.)"
+  },
+  {
+    "parameter": "Dimension",
+    "operator": ">=",
+    "value": "0.267",
+    "unit": "in",
+    "rule_text": ".267\nin (Min.)"
+  },
+  {
+    "parameter": "shear strength of the weld",
+    "operator": "==",
+    "value": "5000",
+    "unit": "psi",
+    "rule_text": "Our studies show the shear strength ofthe wekl to be about 5000 psi"
+  },
+  {
+    "parameter": "dimension",
+    "operator": "==",
+    "value": "0.112",
+    "unit": "in",
+    "rule_text": ".112in"
+  },
+  {
+    "parameter": "dimension",
+    "operator": "==",
+    "value": "0.267",
+    "unit": "in",
+    "rule_text": ".267in"
+  },
+  {
+    "parameter": "dimension",
+    "operator": "==",
+    "value": "0.097",
+    "unit": "in",
+    "rule_text": ".097in"
+  },
+  {
+    "parameter": "dimension",
+    "operator": "==",
+    "value": "0.020",
+    "unit": "in",
+    "rule_text": ".020in"
+  },
+  {
+    "parameter": "dimension",
+    "operator": "==",
+    "value": "0.310",
+    "unit": "in",
+    "rule_text": ".310in"
+  },
+  {
+    "parameter": "dimension",
+    "operator": "==",
+    "value": "0.325",
+    "unit": "in",
+    "rule_text": ".325in"
+  },
+  {
+    "parameter": "dimension",
+    "operator": "==",
+    "value": "0.203",
+    "unit": "in",
+    "rule_text": ".203in"
+  },
+  {
+    "parameter": "radius",
+    "operator": "==",
+    "value": "0.020",
+    "unit": "in",
+    "rule_text": ".020in R"
+  },
+  {
+    "parameter": "dimension",
+    "operator": "==",
+    "value": "0.585",
+    "unit": "in",
+    "rule_text": ".585in"
+  },
+  {
+    "parameter": "dimension",
+    "operator": "==",
+    "value": "0.134",
+    "unit": "in",
+    "rule_text": ".134in"
+  },
+  {
+    "parameter": "dimension",
+    "operator": "==",
+    "value": "0.085",
+    "unit": "in",
+    "rule_text": ".085in"
+  },
+  {
+    "parameter": "dimension",
+    "operator": "==",
+    "value": "0.577",
+    "unit": "in",
+    "rule_text": ".577in"
+  },
+  {
+    "parameter": "dimension",
+    "operator": "==",
+    "value": "0.092",
+    "unit": "in",
+    "rule_text": ".092in"
+  },
+  {
+    "parameter": "dimension",
+    "operator": "==",
+    "value": "0.218",
+    "unit": "in",
+    "rule_text": "218in"
+  },
+  {
+    "parameter": "Mold material for high volume production runs with reinforcing fillers",
+    "operator": "==",
+    "value": "steel and aluminum",
+    "unit": "",
+    "rule_text": "For high volume production runs, particularly those using reinforcing fillers, steel and aluminum are mold materials recommended."
+  },
+  {
+    "parameter": "thickness of in-mold coating",
+    "operator": ">=",
+    "value": "1.5",
+    "unit": "mils",
+    "rule_text": "The standard thickness of an in-mold coating in urethane systems is 2.5 mils with a tolerance of \u00b1 1 mil."
+  },
+  {
+    "parameter": "thickness of in-mold coating",
+    "operator": "<=",
+    "value": "3.5",
+    "unit": "mils",
+    "rule_text": "The standard thickness of an in-mold coating in urethane systems is 2.5 mils with a tolerance of \u00b1 1 mil."
+  },
+  {
+    "parameter": "draft angle",
+    "operator": ">=",
+    "value": "0.5",
+    "unit": "degree",
+    "rule_text": "A minimum of 1/2 degree is usually adequate for parts with low side walls or ribs, typically those up to 1\u201d deep."
+  },
+  {
+    "parameter": "draft angle",
+    "operator": ">=",
+    "value": "1.5",
+    "unit": "degree",
+    "rule_text": "Add at least 1/4 degree of draft for every additional inch of draw, such that a 5 inch draw would require a minimum of 1-1/2 degree draft."
+  },
+  {
+    "parameter": "recommended draft angle",
+    "operator": "==",
+    "value": "1",
+    "unit": "\u00b0",
+    "rule_text": "Recommended draft angle is normally 1\u00b0"
+  },
+  {
+    "parameter": "recommended draft angle on ribs",
+    "operator": "==",
+    "value": "0.5",
+    "unit": "\u00b0",
+    "rule_text": "1/2\u00b0 on ribs."
+  },
+  {
+    "parameter": "feature depth (where minimum draft is desired)",
+    "operator": "<=",
+    "value": "0.5",
+    "unit": "in",
+    "rule_text": "feature depth should not exceed .5in."
+  },
+  {
+    "parameter": "change in wall thickness (for non-uniform walls)",
+    "operator": "<=",
+    "value": "15",
+    "unit": "% of nominal wall",
+    "rule_text": "the change in thickness should not exceed 15% of the nominal wall"
+  },
+  {
+    "parameter": "minimum internal corner fillet radius",
+    "operator": ">=",
+    "value": "50",
+    "unit": "% of wall thickness",
+    "rule_text": "minimum fillet radius of 50% of the wall thickness"
+  },
+  {
+    "parameter": "external corner radius",
+    "operator": "==",
+    "value": "150",
+    "unit": "% of wall thickness",
+    "rule_text": "an outer radius of 150% of the wall thickness"
+  },
+  {
+    "parameter": "SO",
+    "operator": "==",
+    "value": "5000",
+    "unit": "psi",
+    "rule_text": "- SO = 5,000 psi"
+  },
+  {
+    "parameter": "SO",
+    "operator": "==",
+    "value": "10000",
+    "unit": "psi",
+    "rule_text": "- SO = 10,000 psi"
+  },
+  {
+    "parameter": "SO",
+    "operator": "==",
+    "value": "15000",
+    "unit": "psi",
+    "rule_text": "- SO = 15,000 psi"
+  },
+  {
+    "parameter": "Poisson Ratio",
+    "operator": "==",
+    "value": "0.35",
+    "unit": "",
+    "rule_text": "= Poisson is Ratio =0.35"
+  },
+  {
+    "parameter": "E",
+    "operator": "==",
+    "value": "1110000",
+    "unit": "psi",
+    "rule_text": "E \u2014 1,110,000psi"
+  },
+  {
+    "parameter": "G",
+    "operator": "==",
+    "value": "411111",
+    "unit": "psi",
+    "rule_text": "_ 411,111 psi"
+  },
+  {
+    "parameter": "K",
+    "operator": "==",
+    "value": "0.006136",
+    "unit": "in^4",
+    "rule_text": "\u2014 0.006136in 4"
+  },
+  {
+    "parameter": "Applied Torque",
+    "operator": "==",
+    "value": "8",
+    "unit": "in-lb",
+    "rule_text": "(8in -1b)"
+  },
+  {
+    "parameter": "c",
+    "operator": "==",
+    "value": "0.25",
+    "unit": "in",
+    "rule_text": "(0.25in)"
+  },
+  {
+    "parameter": "Hygroscopic materials moisture condition",
+    "operator": "==",
+    "value": "dry as molded",
+    "unit": "",
+    "rule_text": "Hygroscopic materials such as nybn shoukl be welled in they dryas mokled\u2022condiion to prevent bride wekls."
+  },
+  {
+    "parameter": "Lead-in",
+    "operator": "==",
+    "value": "0.020",
+    "unit": "In",
+    "rule_text": "LEAD-IN .020 In"
+  },
+  {
+    "parameter": "Joint dimension",
+    "operator": "==",
+    "value": "0.25",
+    "unit": "In",
+    "rule_text": ".25 In"
+  },
+  {
+    "parameter": "Shear Joint Angle",
+    "operator": ">=",
+    "value": "30",
+    "unit": "degrees",
+    "rule_text": "30-45'"
+  },
+  {
+    "parameter": "Shear Joint Angle",
+    "operator": "<=",
+    "value": "45",
+    "unit": "degrees",
+    "rule_text": "30-45'"
+  },
+  {
+    "parameter": "Part Dimension",
+    "operator": "<",
+    "value": "1.75",
+    "unit": "In",
+    "rule_text": "<1.75"
+  },
+  {
+    "parameter": "Interference",
+    "operator": ">=",
+    "value": "0.008",
+    "unit": "In",
+    "rule_text": "0.008 to 0.012"
+  },
+  {
+    "parameter": "Interference",
+    "operator": "<=",
+    "value": "0.012",
+    "unit": "In",
+    "rule_text": "0.008 to 0.012"
+  },
+  {
+    "parameter": "Part Dimension Tolerance",
+    "operator": "==",
+    "value": "0.001",
+    "unit": "In",
+    "rule_text": "Q.001"
+  },
+  {
+    "parameter": "Part Dimension",
+    "operator": ">=",
+    "value": "0.75",
+    "unit": "In",
+    "rule_text": "0.75 to 1.50"
+  },
+  {
+    "parameter": "Part Dimension",
+    "operator": "<=",
+    "value": "1.50",
+    "unit": "In",
+    "rule_text": "0.75 to 1.50"
+  },
+  {
+    "parameter": "Interference",
+    "operator": ">=",
+    "value": "0.012",
+    "unit": "In",
+    "rule_text": "0.012 to 0.016"
+  },
+  {
+    "parameter": "Interference",
+    "operator": "<=",
+    "value": "0.016",
+    "unit": "In",
+    "rule_text": "0.012 to 0.016"
+  },
+  {
+    "parameter": "Part Dimension Tolerance",
+    "operator": "==",
+    "value": "0.002",
+    "unit": "In",
+    "rule_text": "Q.002"
+  },
+  {
+    "parameter": "Part Dimension",
+    "operator": ">",
+    "value": "1.50",
+    "unit": "In",
+    "rule_text": ">1.50"
+  },
+  {
+    "parameter": "Interference",
+    "operator": ">=",
+    "value": "0.016",
+    "unit": "In",
+    "rule_text": "0.016 to 0.020"
+  },
+  {
+    "parameter": "Interference",
+    "operator": "<=",
+    "value": "0.020",
+    "unit": "In",
+    "rule_text": "0.016 to 0.020"
+  },
+  {
+    "parameter": "Part Dimension Tolerance",
+    "operator": "==",
+    "value": "0.003",
+    "unit": "In",
+    "rule_text": "Q.003"
+  },
+  {
+    "parameter": "temperature for density measurement",
+    "operator": "==",
+    "value": "23",
+    "unit": "\u00b0C",
+    "rule_text": "The density of plastics is the mass in air per unit volume of material at 23\u00b0 C (73\u00b0 F)"
+  },
+  {
+    "parameter": "temperature for density measurement",
+    "operator": "==",
+    "value": "73",
+    "unit": "\u00b0F",
+    "rule_text": "The density of plastics is the mass in air per unit volume of material at 23\u00b0 C (73\u00b0 F)"
+  },
+  {
+    "parameter": "deflection",
+    "operator": "<=",
+    "value": "0.05",
+    "unit": "in",
+    "rule_text": "THE MAXIMUM ALLOWABLE DEFLECTION OF SNAP ... Ymax = 0.05in"
+  },
+  {
+    "parameter": "deflection",
+    "operator": "<",
+    "value": "0.05",
+    "unit": "in",
+    "rule_text": "Therefore, in an actual design, a smaller value for deflection (Y) would be chosen for an added factor of safety."
+  },
+  {
+    "parameter": "mating force",
+    "operator": ">=",
+    "value": "14.2",
+    "unit": "lb",
+    "rule_text": "Therefore, it will take 14.2 pounds to force the snap-fit into position."
+  },
+  {
+    "parameter": "Relative Humidity",
+    "operator": "==",
+    "value": "50",
+    "unit": "%",
+    "rule_text": "Can be corrected bypreparing the mokl for the anticipated bng term size and 50% RH condiions."
+  },
+  {
+    "parameter": "Diameter",
+    "operator": "==",
+    "value": "2.002",
+    "unit": "in",
+    "rule_text": "The critical dimension, and the one in question, is 2.002 in. in diameter."
+  }
+]
